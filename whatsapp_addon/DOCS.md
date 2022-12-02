@@ -72,24 +72,23 @@ data:
 service: whatsapp.send_message
 data:
   clientId: default
-  to: 391234567890@s.whatsapp.net
+  to: 393456789012@s.whatsapp.net
   body:
-    text: Hi it's button message
+    text: Hi it's a button message
     footer: Hello World
     buttons:
-      - buttonId: id1
-        buttonText:
+      - buttonText:
           displayText: Button 1
-        type: 1
-      - buttonId: id2
-        buttonText:
+      - buttonText:
           displayText: Button 2
-        type: 1
-      - buttonId: id3
-        buttonText:
+      - buttonText:
           displayText: Button 3
-        type: 1
-    headerType: 1
+      - buttonText:
+          displayText: Button 4
+      - buttonText:
+          displayText: Button 5
+      - buttonText:
+          displayText: Button 6
 ```
 
 ### **How to send list**
